@@ -20,5 +20,6 @@ remote repo
 
 - git branch <name>: create a local branch
 
-- git checkout <name>: carrega os arquivos de uma 
-branch especifica
+- git checkout <name>: upload files of a specific branch
+
+- git rm -rf .idea : remove the .idea folder from git repo
