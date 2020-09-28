@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adrianodz/libpytools.svg?branch=master)](https://travis-ci.org/adrianodz/libpytools)
+
 # libpytools
 Python's libs and tips
 
