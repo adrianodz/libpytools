@@ -1,19 +1,9 @@
-# configure updates globally
-# default: all
-# allowed: all, insecure, False
-update: all
-
-# configure dependency pinning globally
-# default: True
-# allowed: True, False
-pin: True
-
-# set the default branch
-# default: empty, the default branch on GitHub
-branch:
-
-# search for requirement files
-# default: True
-# allowed: True, False
-search: True
+Update: all
+Search: True
+Pin: True
+Default Branch: None
+Branch pre-fix: pyup-branch
+Close PRs: True
+Label PRs: False
+Update hashes: True
 
