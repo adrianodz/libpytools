@@ -25,3 +25,8 @@ remote repo
 - git checkout <name>: upload files of a specific branch
 
 - git rm -rf .idea : remove the .idea folder from git repo
+
+2) Tests
+ - pip install pytest
+ - update requirements-dev.txt with libs
+ - create a folder package "test" 
