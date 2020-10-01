@@ -32,3 +32,4 @@ remote repo
  - pip install pytest
  - update requirements-dev.txt with libs
  - create a folder package "test" 
+ - update the .travis.yml with: pytest libpytools
