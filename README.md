@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/adrianodz/libpytools.svg?branch=master)](https://travis-ci.org/adrianodz/libpytools)
+[![Updates](https://pyup.io/repos/github/adrianodz/libpytools/shield.svg)](https://pyup.io/repos/github/adrianodz/libpytools/)
+[![Python 3](https://pyup.io/repos/github/adrianodz/libpytools/python-3-shield.svg)](https://pyup.io/repos/github/adrianodz/libpytools/)
 
 # libpytools
 Python's libs and tips
