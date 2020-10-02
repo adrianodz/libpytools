@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/adrianodz/libpytools.svg?branch=master)](https://travis-ci.org/adrianodz/libpytools)
 [![Updates](https://pyup.io/repos/github/adrianodz/libpytools/shield.svg)](https://pyup.io/repos/github/adrianodz/libpytools/)
 [![Python 3](https://pyup.io/repos/github/adrianodz/libpytools/python-3-shield.svg)](https://pyup.io/repos/github/adrianodz/libpytools/)
+[![codecov](https://codecov.io/gh/adrianodz/libpytools/branch/master/graph/badge.svg?token=ZU1VWN3V2G)](https://codecov.io/gh/adrianodz/libpytools)
 
 # libpytools
 Python's libs and tips
@@ -33,3 +34,7 @@ remote repo
  - update requirements-dev.txt with libs
  - create a folder package "test" 
  - update the .travis.yml with: pytest libpytools
+
+2.1) Coverage:
+ - pip install pytest-cov
+ - pytest libpytools --cov=libpytools
