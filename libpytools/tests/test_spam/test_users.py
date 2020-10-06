@@ -8,7 +8,7 @@ def test_save_user():
     user = User(name='Adriano')
     session.save(user)
     assert isinstance(user.id, int)
-    session.roll_back  # destroy all modifications
+    session.roll_back()  # destroy all modifications
     session.close()
     conection.close()
 
@@ -19,7 +19,7 @@ def test_list_user():
     for user in users:
         session.save(user)
     assert users == session.list()
-    session.roll_back  # destroy all modifications
+    session.roll_back()  # destroy all modifications
     session.close()
     conection.close()
 

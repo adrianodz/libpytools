@@ -1,8 +1,6 @@
 class SessionDB:
     counter = 0
     users = []
-    def __init__(self):
-        self.roll_back = None
 
     def save(self, user):
         SessionDB.counter += 1
@@ -11,6 +9,9 @@ class SessionDB:
 
     def list(self):
         return self.users
+
+    def roll_back(self):
+        self.users.clear()
 
     def close(self):
         pass
