@@ -7,6 +7,7 @@ def test_email_sender():
     sender = Sender()
     assert sender is not None
 
+
 @pytest.mark.parametrize(
     'sender_field',
     ['email1@email.com', 'foo@bar.com']
@@ -31,7 +32,7 @@ def test_sender(sender_field):
 def test_invalid_sender(sender_field):
     sender = Sender()
     with pytest.raises(InvalidEmail):
-        result = sender.send(
+        sender.send(
             sender_field,
             'email2@email.com',
             'Python Course',
