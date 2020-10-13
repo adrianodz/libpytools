@@ -38,3 +38,6 @@ remote repo
 2.1) Coverage:
  - pip install pytest-cov
  - pytest libpytools --cov=libpytools
+ 
+ 2.2) Pytest-Mock
+ - pip install pytest-mock
