@@ -6,7 +6,7 @@ pyflakes==2.2.0
 atomicwrites==1.4.0
 attrs==20.2.0
 colorama==0.4.4
-iniconfig==1.0.1
+iniconfig==1.1.1
 packaging==20.4
 pluggy==0.13.1
 py==1.9.0
